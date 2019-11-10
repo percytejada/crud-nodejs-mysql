@@ -1,0 +1,21 @@
+{
+  "name": "crud-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "CRUD application with Node.js and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon src/app.js"
+  },
+  "author": "ppjcode",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
